@@ -31,6 +31,8 @@ export default class ContactCreate extends React.Component {
       name: '',
       phone: ''
     });
+
+    this.nameInput.focus();
   }
 
   handleKeyPress(e) {
